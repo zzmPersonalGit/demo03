@@ -1,0 +1,36 @@
+person:
+  userName: 张三
+#双引号会转义，单引号不会转义
+  boss: true
+  birth: 2019/12/9
+  age: 18
+  #interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+  animal: [猫,狗]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english: 80,math: 90}
+  salarys:
+    - 9999.99
+    - 845.89
+  pet:
+    name: abc
+    weight: 999
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 99.9}
+      - name: 阿猫
+        weight: 88.88
+      - name: 啊虫
+        weight: 77.77
+    health:
+      - {name: 阿花,weight: 199.9}
+      - {name: 阿爱,weight: 197.9}
+
+spring:
+  banner:
+    charset: GBK
+    location: banner.txt
